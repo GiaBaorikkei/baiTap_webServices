@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
     @GetMapping
     public String hello() {
-        return "hello";
+        return "Hello, Spring Boot API";
     }
 }
